@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="install_software" table="x_301673_optum_tra_optum_device_provisioning" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>install_software</element>
+            <name>x_301673_optum_tra_optum_device_provisioning</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-25 14:16:32</sys_created_on>
+            <sys_id>a798932d2f5d2010c6e390bcf699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>install_software</sys_name>
+            <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+            <sys_update_name>sys_choice_x_301673_optum_tra_optum_device_provisioning_install_software</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-25 14:16:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_software</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_301673_optum_tra_optum_device_provisioning</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-25 14:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a798932d2f5d2010c6e390bcf699b63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-25 14:16:32</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>install_software</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_301673_optum_tra_optum_device_provisioning</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-25 14:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b98932d2f5d2010c6e390bcf699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-25 14:16:32</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

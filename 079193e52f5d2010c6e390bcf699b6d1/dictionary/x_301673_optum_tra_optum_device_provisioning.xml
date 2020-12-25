@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Optum Device Provisioning" max_length="40" name="x_301673_optum_tra_optum_device_provisioning" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address 1" max_length="180" name="address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address 2" max_length="180" name="address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Install Additional Software" max_length="40" name="install_software" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="40" name="machine_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mimic Software" max_length="40" name="mimic_software" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Recipient" max_length="32" name="recipient" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Additional Desktop or Laptop" value="additional_desktop_or_laptop"/>
+                <element inactive_on_update="false" label="Replacement Desktop or Laptop" value="replacement_desktop_or_laptop"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="State / Province" max_length="40" name="state_province" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip / Postal code" max_length="40" name="zip_postal_code" type="string"/>
+    </element>
+</database>
