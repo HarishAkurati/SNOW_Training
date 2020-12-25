@@ -12,6 +12,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Machine Name" max_length="40" name="machine_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Machine Name for mimicing purpose" max_length="40" name="machine_name_mimic" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Mimic Software" max_length="40" name="mimic_software" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" value="no"/>
@@ -25,6 +26,7 @@
                 <element inactive_on_update="false" label="Replacement Desktop or Laptop" value="replacement_desktop_or_laptop"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Select the software to install" max_length="32" name="software_install" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="State / Province" max_length="40" name="state_province" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Zip / Postal code" max_length="40" name="zip_postal_code" type="string"/>
     </element>
