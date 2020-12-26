@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_301673_optum_tra.Fetch_Machine_Name</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Fetch_Machine_Name</name>
+        <script><![CDATA[var Fetch_Machine_Name = Class.create();
+Fetch_Machine_Name.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+    type: 'Fetch_Machine_Name'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 06:17:30</sys_created_on>
+        <sys_id>48547ab12f956010c6e390bcf699b6fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Fetch_Machine_Name</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_script_include_48547ab12f956010c6e390bcf699b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 17:38:57</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</application>
+        <file_path/>
+        <instance_id>15473902db8b5704536ad5b0cf9619b1</instance_id>
+        <instance_name>dev63532</instance_name>
+        <name>sys_script_include_48547ab12f956010c6e390bcf699b6fc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_301673_optum_tra.Fetch_Machine_Name&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Fetch_Machine_Name&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Fetch_Machine_Name = Class.create();
+Fetch_Machine_Name.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+    type: 'Fetch_Machine_Name'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-26 06:17:30&lt;/sys_created_on&gt;&lt;sys_id&gt;48547ab12f956010c6e390bcf699b6fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fetch_Machine_Name&lt;/sys_name&gt;&lt;sys_package display_value="Optum Training" source="x_301673_optum_tra"&gt;079193e52f5d2010c6e390bcf699b6d1&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Optum Training"&gt;079193e52f5d2010c6e390bcf699b6d1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_48547ab12f956010c6e390bcf699b6fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-26 17:38:57&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1980870195</payload_hash>
+        <record_name>Fetch_Machine_Name</record_name>
+        <reverted_from/>
+        <source>a4a4ab212f9d2010c6e390bcf699b660</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 17:38:57</sys_created_on>
+        <sys_id>5a80d9862f1d6010c6e390bcf699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176a021c8e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 17:38:57</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9280d986271d601017f2f33997016dd0</update_guid>
+        <update_guid_history>9280d986271d601017f2f33997016dd0:1980870195,e1509186191d601005f6618c9d7d54fe:-511521630,a7201586921d601007b7fd39e240a3b2:950251069,bcd8763501956010123c45ae1b9448b5:-797011156,c4943eb121956010ccccabbd469c7683:-677828302</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 18:05:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0c1b35a690a4486bb0e410d03696eb91</sys_id>
+        <sys_metadata>48547ab12f956010c6e390bcf699b6fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch_Machine_Name</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_scope_delete display_value="">24b202dc05b04d10855754a93e866900</sys_scope_delete>
+        <sys_update_name>sys_script_include_48547ab12f956010c6e390bcf699b6fc</sys_update_name>
+        <sys_update_version display_value="sys_script_include_48547ab12f956010c6e390bcf699b6fc">5a80d9862f1d6010c6e390bcf699b6d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 18:05:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

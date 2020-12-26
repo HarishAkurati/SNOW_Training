@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Optum Device Provisioning" max_length="40" name="x_301673_optum_tra_optum_device_provisioning" type="collection">
+    <element extends="task" label="Optum Device Provisioning" max_length="40" name="x_301673_optum_tra_optum_device_provisioning" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address 1" max_length="180" name="address_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address 2" max_length="180" name="address_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>

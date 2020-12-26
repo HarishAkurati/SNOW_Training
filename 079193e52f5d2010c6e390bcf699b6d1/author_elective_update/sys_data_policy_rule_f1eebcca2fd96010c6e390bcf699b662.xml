@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>true</disabled>
+        <field>delivery_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 16:22:08</sys_created_on>
+        <sys_data_policy display_value="Set read only">ed6e38ca2fd96010c6e390bcf699b6b9</sys_data_policy>
+        <sys_id>f1eebcca2fd96010c6e390bcf699b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery_date</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_f1eebcca2fd96010c6e390bcf699b662</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 16:22:08</sys_updated_on>
+        <table>x_301673_optum_tra_optum_device_provisioning</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</application>
+        <file_path/>
+        <instance_id>15473902db8b5704536ad5b0cf9619b1</instance_id>
+        <instance_name>dev63532</instance_name>
+        <name>sys_data_policy_rule_f1eebcca2fd96010c6e390bcf699b662</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>true</disabled><field>delivery_date</field><mandatory>ignore</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-26 16:22:08</sys_created_on><sys_data_policy display_value="Set read only">ed6e38ca2fd96010c6e390bcf699b6b9</sys_data_policy><sys_id>f1eebcca2fd96010c6e390bcf699b662</sys_id><sys_mod_count>0</sys_mod_count><sys_name>delivery_date</sys_name><sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package><sys_policy/><sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope><sys_update_name>sys_data_policy_rule_f1eebcca2fd96010c6e390bcf699b662</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-26 16:22:08</sys_updated_on><table>x_301673_optum_tra_optum_device_provisioning</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>-1962747988</payload_hash>
+        <record_name>delivery_date</record_name>
+        <reverted_from/>
+        <source>a4a4ab212f9d2010c6e390bcf699b660</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 16:22:08</sys_created_on>
+        <sys_id>f8feb44a2fd96010c6e390bcf699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1769fdb74570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 16:22:08</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>34feb44a83d96010c21a5965733f257e</update_guid>
+        <update_guid_history>34feb44a83d96010c21a5965733f257e:-1962747988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 17:51:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>0d254b6a96534dc184b1cdd455f58f31</sys_id>
+        <sys_metadata>f1eebcca2fd96010c6e390bcf699b662</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery_date</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_scope_delete display_value="">24b202dc05b04d10855754a93e866900</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_f1eebcca2fd96010c6e390bcf699b662</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_f1eebcca2fd96010c6e390bcf699b662">f8feb44a2fd96010c6e390bcf699b67e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 17:51:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

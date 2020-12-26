@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate estimated delivery date. It shouldn't be previous dates of current date and there has to be a minimum 7 days gap between current date and future date.</description>
+        <field>delivery_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Estimated Delivery Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var dateValue = g_form.getValue('delivery_date');
+	
+	var ga = new GlideAjax('Calculate_7_Days');
+	ga.addParam('sysparm_name', 'DifferenceCalculation');
+	ga.addParam('sysparm_Date', dateValue);
+	ga.getXML(callBack);
+	
+	function callBack(response){
+		// parse response
+        var result = response.responseXML.documentElement.getAttribute("answer");
+		var value = parseInt(result);
+		
+		if(value >= 0 && value < 7)
+			g_form.showFieldMsg('delivery_date', 'Please select date which has to be minimum 7 days','info');
+		
+		if(value < 0)
+			g_form.showFieldMsg('delivery_date', "Please don't select previous date", 'info');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-26 14:13:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2d06c0a2f996010c6e390bcf699b631</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Validate Estimated Delivery Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_script_client_b2d06c0a2f996010c6e390bcf699b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-26 17:50:31</sys_updated_on>
+        <table>x_301673_optum_tra_optum_device_provisioning</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Optum Devices" max_length="40" name="x_301673_optum_tra_optum_devices" sizeclass="2" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Machine Name" max_length="40" name="machine_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Recipient" max_length="32" name="recipient" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="recipient"/>
+        </index>
+    </element>
+</database>
