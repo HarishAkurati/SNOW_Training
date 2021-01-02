@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Desktop/Laptop Delivery Team">0e211a2a2f91e010c6e390bcf699b621</application>
+        <assessment/>
+        <device_type/>
+        <filter table="task">assignment_group=90e5994a2f1d6010c6e390bcf699b65f^EQ<item display_table="sys_user_group" display_value="Desktop/Laptop Delivery Team" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="90e5994a2f1d6010c6e390bcf699b65f"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Desktop/Laptop Delivery Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>task</name>
+        <order>11</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_301673_optum_tra.dldt</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 11:41:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ec1d62e2f91e010c6e390bcf699b69d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Desktop/Laptop Delivery Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_app_module_9ec1d62e2f91e010c6e390bcf699b69d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 11:42:45</sys_updated_on>
+        <timeline_page/>
+        <title>Desktop/Laptop Delivery Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

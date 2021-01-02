@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Desktop/Laptop record info</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	var RecepientDisplayName = current.getDisplayValue('recipient');
+	var RequestType = current.getDisplayValue('request_type');
+	var num = current.getDisplayValue('number');
+	email.setSubject('ACTION REQUIRED - New Device request approval for '+ RecepientDisplayName + '.');
+	template.print('New Device Approval - '+ RequestType + ' request for '+ RequestType +'.'+ '\n');
+	template.print("Number : " + num);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-27 11:10:17</sys_created_on>
+        <sys_id>fa01c51e2f55a010c6e390bcf699b65e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Desktop/Laptop record info</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_script_email_fa01c51e2f55a010c6e390bcf699b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 10:31:27</sys_updated_on>
+    </sys_script_email>
+</record_update>

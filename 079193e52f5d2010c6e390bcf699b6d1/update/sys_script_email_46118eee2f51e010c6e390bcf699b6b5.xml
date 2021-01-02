@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Request_Details</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var parent_sys_id = current.getValue('parent');
+    var gr = new GlideRecord('x_301673_optum_tra_optum_device_provisioning');
+    gr.addQuery('sys_id', parent_sys_id);
+    gr.query();
+
+    if (gr.next()) {
+        var RecepientDisplayName = gr.getDisplayValue('recipient');
+        var RequestType = gr.getDisplayValue('request_type');
+        var num = gr.getDisplayValue('number');
+        email.setSubject('ACTION REQUIRED - New Device request approval for ' + RecepientDisplayName + '.');
+        template.print('New Device Approval - ' + RequestType + ' request for ' + RequestType + '.' + '\n');
+        template.print("Number : " + num);
+    }
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-28 10:32:00</sys_created_on>
+        <sys_id>46118eee2f51e010c6e390bcf699b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request_Details</sys_name>
+        <sys_package display_value="Optum Training" source="x_301673_optum_tra">079193e52f5d2010c6e390bcf699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optum Training">079193e52f5d2010c6e390bcf699b6d1</sys_scope>
+        <sys_update_name>sys_script_email_46118eee2f51e010c6e390bcf699b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-28 10:33:17</sys_updated_on>
+    </sys_script_email>
+</record_update>
